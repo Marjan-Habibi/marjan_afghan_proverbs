@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f5f7dc;
+    color: #333;
+  }
+  
+  .header {
+    background-color: #8a5200;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #d89c00;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .container h2 {
+    color: #8a5200;
+    margin-bottom: 10px;
+  }
+  
+  .Search {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .Search input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+  }
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.text {
+    text-align: left;
+    font-size: 22px;
+    color: #c59c07;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    padding: 2px;
+}
+
+.proverbs-box {
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #c59c07;
+    text-align: center;
+}
+  .gallery-box{
+    background-color: white;
+    border: 2px solid #d89c00;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+    
+  }
+  .day-box {
+    background-color: white;
+    border: 2px solid #d89c00;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;         
+    width: 100%;               
+    max-width: 700px;          
+    text-align: center;
+    box-sizing: border-box;   
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 400px;
+}
+
+.content-input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 2px solid #d89c00;
+    border-radius: 8px;
+}
+
+.submit-btn {
+    background-color: #c59c07;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+.submit-btn:hover {
+    background-color: #a88405;
+}
+.content-text {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.content-text > div {
+    max-width: 800px;
+    width: 100%;
+    text-align: left;
+}
+.title {
+    text-align: left;
+    margin-left: 20px; 
+}
+
+  .footer {
+    background-color: #8a5200;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 14px;
+  }
