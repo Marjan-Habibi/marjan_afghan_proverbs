@@ -1,0 +1,2 @@
+# marjan_afghan_proverbs
+afghan_proverbs
